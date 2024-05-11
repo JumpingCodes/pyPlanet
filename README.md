@@ -20,7 +20,7 @@ Mass: 3.3011 * 10^23 kg \
 Diameter: 4,879 km \
 Velocity = 47.9 km/s
 
-### vennus:
+### venus:
 Distance from Sun: 0.72 AU \
 Mass: 4.867 × 10^24 kg \
 Diameter: 12,104 km \
@@ -42,7 +42,7 @@ Velocity = 24.1 km/s
 ### the sun
 Mass: 1.9885 * 10^30 kg \
 Diameter: 1,391,400 km \
-Diameter to scale:69.5700 px \
+Diameter to scale:6.95700 px 
 
 https://www.jpl.nasa.gov/edu/pdfs/scaless_reference.pdf
 
@@ -50,13 +50,26 @@ https://www.jpl.nasa.gov/edu/pdfs/scaless_reference.pdf
 ## the physics:
 
 
-force of attarction:
+force of attraction:
 F=G*(M*m/r^2)
 
-break up the forc in the x and y component
-angle = tan^-1(x/y)
-Fx= F * cos(angle)
-Fy= F * sin(angle)
+break up the force in the x and y component\
+angle = tan^-1(x/y)\
+Fx= F * cos(angle)\
+Fy= F * sin(angle)\
+
+The velocity is Calculated by:\
+velocity = sum(forces) / mass
+
+## orbit:
+
+The orbit is calculated by storing the current position in an array with every update
+
+
+
+### Note:
+This Project is heavily inspired by [this](https://github.com/techwithtim/Python-Planet-Simulation) \
+but is improved by using a more to scale Planet size and more accurate values
 
 
 
